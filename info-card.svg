@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="370" viewBox="0 0 490 370">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; stroke: #30363d; stroke-width: 1px; }
+    .title-bar { fill: #161b22; rx: 8px 8px 0 0; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .text-main { font-family: 'Fira Code', monospace, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
+    .key { fill: #58a6ff; font-weight: bold; }
+    .val { fill: #a5d6ff; }
+    .accent { fill: #7ee787; }
+    .fade { opacity: 0; animation: fadeIn 0.5s ease-in forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+  </style>
+  <rect width="100%" height="100%" class="bg"/>
+  <rect width="100%" height="32" class="title-bar"/>
+  <circle cx="18" cy="16" r="5" class="dot-red"/>
+  <circle cx="34" cy="16" r="5" class="dot-yellow"/>
+  <circle cx="50" cy="16" r="5" class="dot-green"/>
+  <text x="70" y="21" class="text-main" style="fill:#8b949e; font-size:12px;">ismailman81f@github ~ neofetch</text>
+
+  <g transform="translate(24, 60)" class="text-main">
+    <text y="0" class="fade" style="animation-delay: 0.1s;"><tspan class="accent">ismailman81f</tspan>@github</text>
+    <text y="15" class="fade" style="animation-delay: 0.15s; fill: #484f58;">-------------------</text>
+    <text y="40" class="fade" style="animation-delay: 0.2s;"><tspan class="key">OS:</tspan> GitHub Profile Engine</text>
+    <text y="65" class="fade" style="animation-delay: 0.3s;"><tspan class="key">Role:</tspan> Software Engineer &amp; Developer</text>
+    <text y="90" class="fade" style="animation-delay: 0.4s;"><tspan class="key">Stack:</tspan> Python, JavaScript, React, Node.js</text>
+    <text y="115" class="fade" style="animation-delay: 0.5s;"><tspan class="key">Focus:</tspan> Web Apps, Automation, Open Source</text>
+    <text y="140" class="fade" style="animation-delay: 0.6s;"><tspan class="key">Location:</tspan> Earth 🌍</text>
+    <text y="165" class="fade" style="animation-delay: 0.7s;"><tspan class="key">Status:</tspan> Building cool projects 🚀</text>
+
+    <g transform="translate(0, 210)" class="fade" style="animation-delay: 0.8s;">
+      <rect x="0" y="0" width="20" height="12" fill="#ff7b72"/>
+      <rect x="25" y="0" width="20" height="12" fill="#ffa657"/>
+      <rect x="50" y="0" width="20" height="12" fill="#d2a8ff"/>
+      <rect x="75" y="0" width="20" height="12" fill="#7ee787"/>
+      <rect x="100" y="0" width="20" height="12" fill="#79c0ff"/>
+      <rect x="125" y="0" width="20" height="12" fill="#1f6feb"/>
+    </g>
+  </g>
+</svg>
